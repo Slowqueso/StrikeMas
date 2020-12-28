@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #333333;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0px;
+
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.945);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    letter-spacing: 3px;
+    font-family: 'Lucida Grande';
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+
+}
+.logo span{
+    color: red;
+}
+.nav-list{
+    width: 40%;
+    /* display: none;    */
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+.nav-list ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.nav-list ul li a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-family: 'copperplate';
+}
+.nav-list ul li a:hover{
+    text-decoration: underline;
+}
+/* .background-screen{
+ */
+
+/* } */
+/* {--------------------------------- Primary Content Design -------------------------------} */
+.back-image1{
+    background-image: url('Assets/Christmas1.png');
+    height: 3.5cm;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.navbar2{
+    /* position: relative; */
+    top: 1cm;
+    width: 75%;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(5, 0, 0, 0.4);
+    font-family: 'copperplate';
+    color: white;
+    padding: 5px;
+}
+/* ------------------ Daw's Content Design ------------------------ */
+.content-daw{
+    display: block;
+}
+.daw-btn{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.daw-pfp img{
+    width: 10cm;
+}
+.daw-para1 h1{
+    font-size: 39px;
+}
+/* ------------------ Z's content Design-------------------------- */
+.Z-pfp img{
+    width: 8cm;
+}
+/* ------------------ Hallow's Content Design --------------------- */
+.Hallow-pfp img{
+    width: 8cm;
+}
+.Hallow-para1 h1{
+    font-size: 32px;
+}
+/* ------------------ King's Content Design ----------------------- */
+.king-pfp img{
+    width: 8cm;
+}
+/*-------------------------- Common Design ------------------------- */
+/* JavaScript Design  */
+.content-Z, .content-Hallow, .content-king{
+    
+    display:none;
+}
+/* Web Design  */
+.content-daw, .content-Z, .content-king, .content-Hallow{      
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    /* display: none; */
+    position: relative;
+}
+.daw-container1, .Z-container1, .Hallow-container1, .king-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.daw-pfp, .Z-pfp, .Hallow-pfp, .king-pfp{
+    margin-left: 1rem;
+}
+.daw-para1, .Z-para1, .Hallow-para1, .king-para1{
+    margin-left: 2rem;
+    padding: 1rem;
+    background-color:  rgba(255, 255, 255, 0.4);
+    height: 6cm;
+    overflow-y: scroll;
+}
+.daw-para1::-webkit-scrollbar, .Z-para1::-webkit-scrollbar, .Hallow-para1::-webkit-scrollbar, .king-para1::-webkit-scrollbar{
+    width: 5px;
+    direction: ltr;
+}
+.daw-para1::-webkit-scrollbar-track, .Z-para1::-webkit-scrollbar-track, .Hallow-para1::-webkit-scrollbar-track, .king-para1::-webkit-scrollbar-track{
+    background: black;
+    width: 6px;
+    direction: ltr;
+}
+.daw-para1::-webkit-scrollbar-thumb, .Z-para1::-webkit-scrollbar-thumb, .Hallow-para1::-webkit-scrollbar-thumb, .king-para1::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
+    height: 1cm;
+    direction: ltr;
+}
+.daw-para1 h1, .Z-para1 h1, .Hallow-para1 h1, .king-para1 h1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+}
+.daw-para1 p, .Z-para1 p, .Hallow-para1 p, .king-para1 p{
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 17px;
+
+}
+/* button design */
+.daw-btn, .Z-btn, .Hallow-btn, .king-btn{
+    border: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 30px;
+    width: 4cm;
+    text-align: center;
+}
+.daw-btn:hover, .Z-btn:hover, .Hallow-btn:hover, .king-btn:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.daw-btn:focus, .Z-btn:focus, .Hallow-btn:focus, .king-btn:focus{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.span2{
+    margin: 1.5cm auto 1.5cm auto;
+    height: 5px;
+    width: 60%;
+    border-radius: 30px;
+    background-color: coral;
+}
+/* {------------------------------------------- Secondary Content Design ----------------------------------------------} */
+
+/* ----------------- Content Container Design------------- */
+.content-container{
+    margin: auto;
+    width: 86%;
+    min-height: 15cm;
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 1cm;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+/* ----------- Timeline Design --------------- */
+.timeline{
+    display: flex;
+    justify-content:space-between;
+    height: 5px;
+    align-items: center;
+    z-index: 0;
+    background-color: rgb(145, 255, 191);
+}
+.periods{
+    font-size: 30px;
+    height: 2cm;
+    width: 2cm;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+}
+#period1{
+    background-color: rgb(132, 172, 145);
+}
+.periods h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+/* ----------------- Internal Container Design ---------------- */
+/* ----- Owner Design ------- */
+.Alex-pfp{
+    margin-right: 2rem;
+}
+.card-holder{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------ Common Designs------------- */
+.Legacy-1, .card-holder{
+    display: flex;
+    margin-top: 2cm;
+    justify-content: space-around;
+    border: 2px solid rgb(130, 255, 169);
+    border-radius: 10px;
+    padding: 2rem;
+}
+/* -------- Kage Card Design ---------- */
+.card1, .card2, .card3{
+    width: 6.5cm;
+    height: 20cm;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
